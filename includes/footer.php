@@ -1,4 +1,32 @@
-
+<div class="bg-navy pd-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h5 class="upperfont headfont tx-white mg-n pd-n">
+                  READY TO KEEP FIGHTING?
+              	</h5>
+            </div>
+            <form id="signup-strip-form" novalidate="novalidate" action="https://my.democrats.org/page/s?source=es_headline&amp;subsource=" method="POST">
+            	<div class="col-md-5">
+                    <div class="row">
+                        <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
+                        <div class="col-md-6 clearfix">
+                            <input class="input-sm form-control" placeholder="EMAIL" type="email" name="email" id="qs_email" required="" aria-required="true">
+                        </div>
+                        <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
+                        <div class="col-md-6 clearfix">
+                            <input class="input-sm form-control" placeholder="ZIP" type="zip" name="zip" maxlength="5" id="qs_zip" pattern="[0-9]*" required="" aria-required="true">
+                        </div>
+                        <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
+                    </div>
+	              </div>
+              	<div class="col-md-2">
+		                <input class="full-w input-sm btn btn-sm tx-red tx-hv-white bd-red bg-white bg-hv-red heavyfont headfont" style="padding:0px;" type="submit" value="ADD MY NAME">
+		        </div>
+            </form>
+        </div>
+    </div>
+</div>
 	 <!-- Footer -->
 	<div class="bg-blue tx-white">
 				<div class="container">
