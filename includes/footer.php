@@ -32,7 +32,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center pd-vs">
-							<span class="tx-white headfont font-md text-uppercase">Official Website of the Democratic Party</span>
+							<span class="tx-white headfont font-md text-uppercase">Official Website of the Hill County Democratic Party</span>
 						</div>
 					</div>
 				</div>
