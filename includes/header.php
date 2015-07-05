@@ -131,19 +131,16 @@
                                 <div class="collapse navbar-collapse  headfont" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right  headfont">
                                         <li class="">
-                                            <a href="/about.php">About Us</a>
+                                            <a href="/about.php">About</a>
                                         </li>
                                         <li class="">
                                             <a href="/precincts.php">Precincts</a>
                                         </li>
                                         <li class="">
-                                            <a href="/news.php">Latest News</a>
+                                            <a href="/news.php">News</a>
                                         </li>
                                         <li class="">
-                                            <a href="/contact.php">Contact Us</a>
-                                        </li>
-                                        <li class="">
-                                            <a target="blank" href="http://store.democrats.org">Store</a>
+                                            <a href="/contact.php">Contact</a>
                                         </li>
                                         <li class="nav-take-action hidden-xs">
                                             <a href="">Take Action</a>
