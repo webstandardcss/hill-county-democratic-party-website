@@ -131,13 +131,16 @@
                                 <div class="collapse navbar-collapse  headfont" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right  headfont">
                                         <li class="">
-                                            <a href="//www.democrats.org/the-latest">The Latest</a>
+                                            <a href="/about.php">About Us</a>
                                         </li>
                                         <li class="">
-                                            <a href="//www.democrats.org/the-2016-republican-field">2016</a>
+                                            <a href="/precincts.php">Precincts</a>
                                         </li>
                                         <li class="">
-                                            <a href="//www.democrats.org/projects">Projects</a>
+                                            <a href="/news.php">Latest News</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="/contact.php">Contact Us</a>
                                         </li>
                                         <li class="">
                                             <a target="blank" href="http://store.democrats.org">Store</a>
