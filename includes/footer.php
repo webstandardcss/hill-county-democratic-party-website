@@ -71,7 +71,6 @@
 									<br>601 E. Franklin Street
 									<br>Hillsboro, Texas 76645
 									<br>
-									<br><strong><a href="http://my.democrats.org/page/s/website-feedback">Website Feedback</a></strong>
 							</div>
 							<div class="col-md-6 col-md-offset-2 footer-right">
 									<div class="row">
@@ -105,7 +104,7 @@
 
 														<br><a href="//www.democrats.org/more/supplier-diversity">Supplier Diversity</a>
 
-														<br><a href="//www.democrats.org/contact-us">Contact Us</a>
+														<br><a href="/contact.php">Contact Us</a>
 
 														<br><a href="//www.democrats.org/more/privacy-policy">Privacy Policy</a>
 
@@ -155,6 +154,13 @@
 													<br>
 											</div>
 											<div class="col-md-4">
+													<strong>MAIN</strong>
+													<a href="//www.democrats.org/the-latest">The Latest</a><br>
+													<a href="//www.democrats.org/the-2016-republican-field">2016</a><br>
+													<a href="//www.democrats.org/projects">Projects</a><br>
+													<a target="blank" href="http://store.democrats.org">Store</a><br>
+													<br>
+													<br>
 													<strong>ISSUES</strong>
 
 													<br><a href="//www.democrats.org/issues/civil-rights">Civil Rights</a>
