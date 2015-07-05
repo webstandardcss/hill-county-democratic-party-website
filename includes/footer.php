@@ -154,7 +154,7 @@
 													<br>
 											</div>
 											<div class="col-md-4">
-													<strong>MAIN</strong>
+													<strong>MAIN</strong><br>
 													<a href="//www.democrats.org/the-latest">The Latest</a><br>
 													<a href="//www.democrats.org/the-2016-republican-field">2016</a><br>
 													<a href="//www.democrats.org/projects">Projects</a><br>
