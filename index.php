@@ -27,7 +27,33 @@
 </div>
 
 	  </section>
-
+<script type="text/javascript">
+	$(document).ready(function(e) {			
+		$("#signup-strip-form").submit(function(){
+			$('#loader').show();
+			var data = {
+				"action": "test"
+			};
+			data = $(this).serialize() + "&" + $.param(data);
+			$.ajax({
+				type: "POST",
+				dataType: "json",
+				url: "send.php", 
+				data: data,
+				success: function(data) {
+					$(".return").html(
+						data["json"]
+					);
+				},
+				error: function(){
+					$('#loader').hide();
+					$('.return').html('<div class="alert alert-warning"><strong>Something went wrong!</strong></div>');
+				}
+			});
+			return false;
+		});
+	});
+</script>
 	  <section id="fp_post_nav_2" class="fp_section">
 	  		<div class="bg-navy pd-sm">
     <div class="container">
@@ -42,11 +68,11 @@
                     <div class="row">
                         <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
                         <div class="col-md-6">
-                            <input class="input-sm form-control" placeholder="EMAIL" type="email" name="email" id="qs_email" required/>
+                            <input class="input-sm form-control" placeholder="EMAIL" type="email" name="Email" id="qs_email" required/>
                         </div>
                         <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
                         <div class="col-md-6">
-                            <input class="input-sm form-control" placeholder="ZIP" type="zip" name="zip" maxlength="5" id="qs_zip" pattern="[0-9]*" required/>
+                            <input class="input-sm form-control" placeholder="ZIP" type="zip" name="Zip" maxlength="5" id="qs_zip" pattern="[0-9]*" required/>
                         </div>
                         <div class="col-xs-12 hidden-md hidden-lg mg-v-vs"></div>
                     </div>
@@ -55,6 +81,8 @@
 		                <input class="full-w input-sm btn btn-sm tx-red tx-hv-white bd-red bg-white bg-hv-red heavyfont headfont"  style="padding:0px;" type="submit" value="ADD MY NAME">
 		        </div>
             </form>
+			<div class="clearfix"></div>
+			<div class="return"></div>
         </div>
     </div>
 </div>

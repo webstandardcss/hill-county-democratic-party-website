@@ -131,16 +131,16 @@
                                 <div class="collapse navbar-collapse  headfont" id="navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right  headfont">
                                         <li class="">
-                                            <a href="/about.php">About</a>
+                                            <a href="about.php">About</a>
                                         </li>
                                         <li class="">
-                                            <a href="/precincts.php">Precincts</a>
+                                            <a href="precincts.php">Precincts</a>
                                         </li>
                                         <li class="">
-                                            <a href="/news.php">News</a>
+                                            <a href="news.php">News</a>
                                         </li>
                                         <li class="">
-                                            <a href="/contact.php">Contact</a>
+                                            <a href="contact.php">Contact</a>
                                         </li>
                                         <li class="nav-take-action hidden-xs">
                                             <a href="">Take Action</a>
