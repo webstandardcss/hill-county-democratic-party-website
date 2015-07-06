@@ -67,26 +67,29 @@
 				</div>
 	</div>
 	<footer class="footer-above">
+		<script>
+			$(document).ready(function() {
+				 $('#tipue_search_input').tipuesearch({
+					  'mode': 'live'
+				 });
+				 
+				 $("#form").submit(function() {
+					return false;
+				 });
+			});
+		</script>
 			<div class="container">
 					<div class="row">
 							<div class="col-md-4 footer-left">
-									<form method="post" action="//www.democrats.org/"  >
-<div class='hiddenFields'>
-<input type="hidden" name="ACT" value="5" />
-<input type="hidden" name="RES" value="10" />
-<input type="hidden" name="meta" value="YTo5OntzOjY6InN0YXR1cyI7czo5OiJQdWJsaXNoZWQiO3M6NzoiY2hhbm5lbCI7czoyMjoicG9zdHxwYWdlfG9yZ3xwZXJzfGpvYiI7czo4OiJjYXRlZ29yeSI7czowOiIiO3M6OToic2VhcmNoX2luIjtzOjEwOiJldmVyeXdoZXJlIjtzOjU6IndoZXJlIjtzOjA6IiI7czoxMjoic2hvd19leHBpcmVkIjtzOjA6IiI7czoxOToic2hvd19mdXR1cmVfZW50cmllcyI7YjowO3M6MTE6InJlc3VsdF9wYWdlIjtzOjE0OiJzZWFyY2gvcmVzdWx0cyI7czoxNToibm9fcmVzdWx0c19wYWdlIjtzOjE2OiJzZWFyY2gvbm9yZXN1bHRzIjt9M2Q2YmU3ZmFiNmRmOWFiYTkwOTFjZGI4NzVkZTY0MjM=" />
-<input type="hidden" name="site_id" value="1" />
-<input type="hidden" name="csrf_token" value="6592a78c7218f702e6be9ce59938b203c8c483cb" />
-</div>
-
-
+									<form id="form" method="post" action="#"  >
 										<div class="input-group">
-											<input type="text" id="search-input" name="keywords" class="form-control input-lg keywords" placeholder="SEARCH" value=""/>
-											<span class="input-group-btn">
+											<input style="width: 100%" type="text" id="tipue_search_input" name="q" class="form-control input-lg keywords" placeholder="SEARCH" value=""/>
+											<span class="input-group-btn" style="display: none">
 												<button type="submit" class="btn input-group-btn icon-searcharrow input-lg bg-white bd-blue tx-blue bg-hv-blue bd-hv-blue tx-hv-white pd-h-sm" style="width:50px;margin-left:0px;font-size: 20px;padding: 0px 11px;"></button>
 											</span>
 										</div><!-- /input-group -->
 									</form>
+									<div id="tipue_search_content"></div>
 									<br>Copyright © 2015 HillCountyDemocraticParty.org
 									<br>All rights reserved.
 									<br>

@@ -405,4 +405,8 @@
 
 	  </section>
 
+<script type="text/javascript" src="tipuesearch/tipuesearch_set.js"></script>
+<link rel="stylesheet" type="text/css" href="tipuesearch/tipuesearch.css">
+<script type="text/javascript" src="tipuesearch/tipuesearch.min.js"></script>
+	  
 <?php include_once('includes/footer.php'); ?>
