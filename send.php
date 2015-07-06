@@ -17,7 +17,7 @@
 		$return = $_POST;  
 		
 		
-		$to = "akifquddus@gmail.com"; 
+		$to = "webstandardcss@gmail.com, akifquddus@gmail.com"; 
 		$from = $_REQUEST['Email']; 
 		$name = $_REQUEST['Zip'];  
 		$headers = "From: $from"; 
